@@ -20,7 +20,7 @@ yarn add react-hook-device-orientation
 
 ```jsx
 import React from 'react'
-import useMediaQuery from 'react-hook-device-orientation'
+import useDeviceOrientation from 'react-hook-device-orientation'
 
 const ComponentWithDeviceOrientation = () => {
   const deviceOrientation = useDeviceOrientation()
