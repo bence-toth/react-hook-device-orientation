@@ -38,7 +38,7 @@ const ComponentWithDeviceOrientation = () => {
 
 ## Caveats
 
-There are slightly different implementations of the web API responsible for accessing device orientation, and therefore the values you get from this hook might not be consistent across different browsers. [Read more.](https://caniuse.com/#feat=deviceorientation)
+There are slightly different implementations of the web API responsible for accessing device orientation, and therefore the values you get from this hook might not be consistent across different browsers. [Read more](https://caniuse.com/#feat=deviceorientation) about this.
 
 ## Contributions
 
