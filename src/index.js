@@ -18,9 +18,16 @@ const useDeviceOrientation = () => {
   }
 
   useEffect(() => {
-    window.addEventListener('deviceorientation', handleOrientationChange, true)
+    window.addEventListener(
+      'deviceorientation',
+      handleOrientationChange,
+      true
+    )
     return () => {
-      window.removeEventListener('deviceorientation', handleOrientationChange)
+      window.removeEventListener(
+        'deviceorientation',
+        handleOrientationChange
+      )
     }
   }, [])
 
